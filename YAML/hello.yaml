@@ -1,0 +1,26 @@
+#key-value pair
+"apple" : "I am a red fruit"
+1: "this is ankit's roll number"
+
+---       #this --- means they are separated documents
+#lists
+- apple
+- mango
+- banana
+#yaml is case sensitive
+- Apple
+
+---
+
+#blockStyle
+cities:
+  - new delhi
+  - mumbai
+  - gujrat
+---
+cities : [new delhi, mumbai]
+---
+
+{mango: "yellow fruit", age: 56}
+
+...  #it means document is ended

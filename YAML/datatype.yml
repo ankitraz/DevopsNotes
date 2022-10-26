@@ -1,0 +1,55 @@
+name: Ankit raj   #this is know as variable
+#string are written in quotes or no quotes.
+
+#string variable
+myself: Ankit raj
+fruit: "apple"
+job: 'swe'
+
+bio: |
+  hey my name is ankit raj
+  i am a very nice dude.
+
+#write a single line in multiple lines
+messgae: >
+  this will
+  all be
+  in one single line
+
+#same as
+messgae: !!str this will all be in one single line
+
+number: 5473
+marks: 98.56
+booleanValue: !!bool No  #n,N, False,FALSE,false also can be used
+#same for true -> yes,y,Y
+
+#specify the datatype of a variable
+zero: !!int 0
+positiveNum: !!int 45
+NegativeNum: !!int -23
+binaryNum: !!int 0b11001;
+octalNum: !!int 0674
+hex: !!int 0x45
+commaValue: !!int +540_000  # 540,000
+exponentia number: 6.023E56
+
+
+#floating point numbers
+marks: !!float 56.89
+infinty: !!float .inf     #to store a infinity
+Not a num: .nan
+
+
+#null
+surname: !!null Null # or null NULL ~
+~: this is a null key
+
+#dates and time
+date: !!timestamp 2002-3-4
+india time: 2002-3-4T02:59:43.10 +5:30
+no time zone: 2002-3-4T02:59:43.10
+
+
+
+

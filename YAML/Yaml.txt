@@ -1,0 +1,46 @@
+Introduction -
+what is yaml?
+ans - yet another markup language or yaml ain't markup language
+
+it is basically data format. used to exchange/represent data
+it is similar to xml and json data types
+in yaml, you can store only data, and not commands.
+
+Data Serialisation - 
+a process of converting the data objects into a stream of storage.
+
+stream - chunks of data
+
+- reverse of serialisalion is known as deserialisation
+
+
+object -> serializer -> stream of bytes -> now it can be stored in yaml, database, memory
+object is combination of code + data;
+
+ - Data serialisation languages - used to represent data in code
+ 1. yaml
+ 2. json
+ 3. xml
+
+ object to file -serialisation
+ file to object - deserialisation
+
+- used in configuration files like in docker/k8s
+- used in logs, caches etc.
+
+Benefits of yaml -
+1. it's human readable and simple.
+2. It has a strict syntax. indentation is important
+3. Easily convertible to json,xml
+4. Most languages uses yaml.
+5. It is more powerful when representing complex data.
+6. Parsers, etc. various tools available.
+7. parsing is easy. parsing means reading the data.
+
+
+# we have key --- value pair
+
+#yaml does not provides multi line comments
+
+Data Types -
+1.
