@@ -1,0 +1,75 @@
+git status - to check the status of our repo // these are the guest whose photos has not been taken yet.
+
+git add . or git add (individual file names) - to put all the files in staging area.
+. means everything in current project directory
+
+git restore -- stagged file.txt - to unstage a file
+
+git commit -m " your message" - to commit a changes
+
+
+git log - to check all the history of commits
+
+
+how to go to a particular commit
+copy the commit id
+git reset commit_id --- to go back to previous commit
+
+git stash - to send to backstage
+git stash pop - to call that backstagged commits
+git stash clear - to remove backstage commits
+
+how to attach a project from github to local git project
+git remote add origin url_of_repo
+git remote -v -- this will show all the url attached to the folder of git
+git remote remove origin
+
+// delete branch locally
+git branch -d localBranchName
+
+// delete branch remotely
+git push origin --delete remoteBranchName
+
+
+git push origin master - to push changes to github from git
+Git pull origin master – to fetch and download content from a remote repository and immediately
+                          update the local repository to match that content.
+
+we should never commit on main branch directly
+create a seperate branch and the pull request
+
+
+git branch name_of_branch --- to create a new branch
+git checkout name_of_branch --- to move the head to thaat particular branch
+git merge name_of_branch ---- to merge that branch to main branch on github
+
+// working with existing project on github
+
+git clone url_of_your_forked_repo -----to download that repo folder
+
+upstream url - from where you have forked that repo is known as upstream url
+
+git remote add upstream url_of _repo --- to add the upstream repo to your git
+
+git push origin name_of-brach -f - - to force push the commit
+
+to fetch upstream - use
+git fetch --all --prune (prune means deleted changes also)
+then
+git checkout main - swith to main first
+and then
+git reset --hard upstream/main --- to update the main branch or our cloned repo from upstream repo..
+
+and then your local main branch will be up to date with upstream main
+now, just push all the comit to gitub and you gitub cloned repo will all be up to dated with main branch of upstrem repo
+
+
+// we can also do like
+git pull upstream main ---- just a single code to fetch local main branch with upstream
+git push orgin main --- to push it to main branch of github repo
+
+
+
+
+// merge conflicts
+if you have so many commits and you want to merge them all into one then do this
