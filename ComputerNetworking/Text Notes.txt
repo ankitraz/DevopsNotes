@@ -1,0 +1,52 @@
+What is Network?
+- computers connected together
+
+How did it start ?
+- ARPA -> Advanced Reserch Projects Agency
+
+Protocol - The rules that are set up by people how a particular data is
+           being send. eg - tcp,ip,udp
+
+WWW - it's an information system where documents and other web resourches
+       are identified by URLs, which may be interlinked by hyperlinks
+
+INTERNET society are responsible for creating these protocols
+
+* Client - Server Architecture
+-> in this, client request the data from the server and server reponds back to it
+
+-----------------------------------------------------------------------------
+SOME BASIC PROTOCOLS
+1. TCP - Transmission Control Protocol -
+        - ensure that data will reach its destination and not get corrupted
+
+2. UDP - User Datagram Protocol
+       - when you don't care about if 100% of teh data is reaching to its destination.
+
+3. HTTP - Hyper Text Transfer Protocol
+        - used by Web Browsers
+        - data that is being transferred between clients and servers
+--------------------------------------------------------------------------------
+
+#Every single device on the internet that can talk to each other, the
+ have some kind of unique address, knows as IP Address.
+            format - x.x.x.x   *each x is between 0-25.
+
+1. Global ip Address and Local ip Address
+-> Modem/ router provides the local ip address through DHCP (Dynamic Host Configuration Protocols)
+-> Modem/ router will decied who requested it. it does that using NAT(network Access Translator)
+-> Ip address decides which device to send the data whereas PORT numbers
+    are used to identify whic application made that request.
+-> Ports are 16bit numbers
+1. 0-1023 => reserved ports
+2. 1024-49152 => registered for applications
+3. remainig for our use.
+
+-------------------------------------------------------------------------------
+LOCAL AREA NETWORK - Interconnects computer within limited area such as
+                     residence, school, university camput. ethernet, wifi
+
+METROPOLITIAN AREA NETWORK -  interconnects users with computer resources in a geographic region of the size of a cities
+
+WIDE AREA NETWORK - Extends over large geographic area (countries)
+
